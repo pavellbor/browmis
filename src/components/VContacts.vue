@@ -76,6 +76,7 @@ export default {
       border: none;
       background: none;
       outline: none;
+      -webkit-appearance: none;
     }
   }
 
