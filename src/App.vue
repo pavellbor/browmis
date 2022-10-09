@@ -1,26 +1,49 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <v-header />
+  <v-intro />
+  <v-about />
+  <v-principles />
+  <v-portfolio />
+  <v-price />
+  <v-contacts />
+  <v-footer />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import VHeader from '@/components/VHeader.vue';
+import VIntro from './components/VIntro.vue';
+import VAbout from './components/VAbout.vue';
+import VPrinciples from './components/VPrinciples.vue';
+import VPortfolio from './components/VPortfolio.vue';
+import VPrice from './components/VPrice.vue';
+import VContacts from './components/VContacts.vue';
+import VFooter from './components/VFooter.vue';
 
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+  components: { VHeader, VIntro, VAbout, VPrinciples, VPortfolio, VPrice, VContacts, VFooter },
+};
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+:root {
+  --light-color: #ffffff;
+  --dark-color: #575555;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Cormorant Infant', serif;
+  font-size: 16px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.wrapper {
+  padding-left: 15px;
+  padding-right: 15px;
 }
 </style>
