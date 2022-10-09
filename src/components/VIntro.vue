@@ -1,8 +1,16 @@
 <template>
   <section class="intro">
     <div class="wrapper">
-      <h1 class="title">Брови говорят громче слов</h1>
-      <p class="desc">Сделаю брови, о которых ты мечтаешь</p>
+      <h1 class="title">
+        Брови<br />
+        говорят<br />
+        громче<br />
+        слов
+      </h1>
+      <p class="desc">
+        Сделаю брови,<br />
+        о которых ты мечтаешь
+      </p>
       <a class="btn" href="#">Записаться</a>
       <img class="picture" src="@/assets/master.png" />
     </div>
@@ -51,6 +59,8 @@ export default {};
   }
 
   .picture {
+    width: calc(100% + 30px);
+    height: auto;
     margin: 0 -15px;
   }
 }

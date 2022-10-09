@@ -71,10 +71,10 @@ export default {
 
     input,
     select {
-      position: relative;
-      flex-grow: 1;
       padding: 0;
+      width: 100%;
       border: none;
+      background: none;
       outline: none;
     }
   }

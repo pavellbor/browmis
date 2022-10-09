@@ -61,7 +61,7 @@ export default {
     justify-content: center;
     box-sizing: border-box;
     height: 255px;
-    padding: 10px;
+    padding: 50px;
 
     font-style: italic;
     font-family: 'DM Sans', sans-serif;
