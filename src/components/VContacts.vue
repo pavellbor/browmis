@@ -12,15 +12,15 @@
         </div>
         <div class="row">
           <label for="phone">Телефон</label>
-          <FormKit type="tel" />
+          <FormKit id="phone" type="tel" />
         </div>
         <div class="row">
-          <label for="service">Дата</label>
-          <FormKit type="date" />
+          <label for="date">Дата</label>
+          <FormKit id="date" type="date" />
         </div>
         <div class="row">
-          <label for="service">Время</label>
-          <FormKit type="time" />
+          <label for="time">Время</label>
+          <FormKit id="time" type="time" />
         </div>
         <button class="submit">Записаться</button>
       </form>
