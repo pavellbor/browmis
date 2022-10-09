@@ -62,12 +62,15 @@ export default {
   }
 
   .title-wrapper--animated {
+    min-height: 60px;
+    margin-top: -30px;
     margin-left: -15px;
     margin-right: -15px;
-    overflow-x: clip;
+    overflow-x: hidden;
     white-space: nowrap;
 
     .title-shadow {
+      top: 0;
       animation: marquee 2s linear infinite;
     }
   }
